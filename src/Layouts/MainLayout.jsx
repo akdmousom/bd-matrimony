@@ -1,3 +1,4 @@
+import Footer from "../Components/Footer/Footer"
 import Nav from "../Components/NavBar/Nav"
 import PropTypes from "prop-types"
 
@@ -11,6 +12,7 @@ export default function MainLayout({children}) {
         <Nav/>
         
         {children}
+        <Footer/>
        
     </div>
     
